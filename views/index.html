@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply CORS</title>
+</head>
+
+<body>
+    <h1>Hello, this is ApplyCors!</h1>
+
+    <form action="/applyCors" method="post">
+        <div>
+            <label for="originalUrl">Original Url</label>
+            <input type="url" name="originalUrl" id="originalUrl" value="http://google.lt">
+        </div>
+        <div>
+            <label for="customName">Custom Name</label>
+            <input type="text" name="customName" id="customName">
+        </div>
+        <button type="submit">Apply!</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "applycors",
+  "version": "1.0.0",
+  "description": "Applies CORS headers and provides a new url",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErnestasBaltinas/ApplyCORS.git"
+  },
+  "author": "ErnestasBaltinas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErnestasBaltinas/ApplyCORS/issues"
+  },
+  "homepage": "https://github.com/ErnestasBaltinas/ApplyCORS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
