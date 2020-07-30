@@ -12,7 +12,7 @@ const updateUrlsList = async () => {
 
         urls.map(url => {
             const li = document.createElement('li');
-            const liText = document.createTextNode(url.original);
+            const liText = document.createTextNode(url.newUrl);
             li.appendChild(liText);
 
             ul.appendChild(li);
