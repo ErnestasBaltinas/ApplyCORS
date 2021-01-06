@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ErnestasBaltinas/ApplyCORS#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "mongoose": "^5.9.25",
     "uuid": "^8.3.0"
